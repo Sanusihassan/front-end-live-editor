@@ -1,0 +1,12 @@
+@import "cssmolecule";
+@import "custom-bs";
+@import "./mixins";
+@include bootstrap;
+.app {
+  @include extend("d-flex");
+  .editor,
+  .output {
+    flex: 0 1 50%;
+    height: 100vh;
+  }
+}

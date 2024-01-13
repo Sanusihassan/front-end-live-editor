@@ -1,0 +1,28 @@
+{
+  "name": "front-end-live-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "ace-builds": "^1.32.3",
+    "cssmolecule": "^1.0.1",
+    "custom-bs": "^1.3.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-ace": "^10.1.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "sass": "^1.69.7",
+    "terser-webpack-plugin": "^5.3.10",
+    "typescript": "^5"
+  }
+}
